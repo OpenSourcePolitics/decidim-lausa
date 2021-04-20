@@ -16,6 +16,7 @@ AllCops:
     - "spec/decidim_dummy_app/**/*"
     - "node_modules/**/*"
     - "tmp/**/*"
+    - "bin/*"
   # Default formatter will be used if no -f/--format option is given.
   DefaultFormatter: progress
   # Cop names are not displayed in offense messages by default. Change behavior
@@ -1252,6 +1253,9 @@ RSpec/LeakyConstantDeclaration:
   Enabled: false
 
 RSpec/DescribedClass:
+  Enabled: false
+
+Rails/BulkChangeTable:
   Enabled: false
 
 inherit_from: .rubocop_rails.yml

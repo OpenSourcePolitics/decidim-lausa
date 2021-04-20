@@ -29,5 +29,4 @@ RSpec.configure do |config|
     ActionController::Base.logger.level = Logger::ERROR
     Rails.logger.level = Logger::ERROR
   end
-
 end

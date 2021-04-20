@@ -110,4 +110,3 @@ class CheckLegacyTables < ActiveRecord::Migration[5.2]
   end
 end
 # rubocop:enable Style/GuardClause
-# rubocop:enable Rails/Output
