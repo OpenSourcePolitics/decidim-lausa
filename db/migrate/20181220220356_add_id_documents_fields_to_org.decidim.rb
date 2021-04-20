@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20181126145142)
 
 class AddIdDocumentsFieldsToOrg < ActiveRecord::Migration[5.2]

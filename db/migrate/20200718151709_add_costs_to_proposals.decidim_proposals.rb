@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_proposals (originally 20200210135152)
 
 class AddCostsToProposals < ActiveRecord::Migration[5.2]

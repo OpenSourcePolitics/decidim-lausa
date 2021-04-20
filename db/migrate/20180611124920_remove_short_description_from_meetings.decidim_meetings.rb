@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_meetings (originally 20170129153716)
 
 class RemoveShortDescriptionFromMeetings < ActiveRecord::Migration[5.0]

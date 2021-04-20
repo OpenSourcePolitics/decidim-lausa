@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_budgets (originally 20170410074214)
 
 class RemoveNotNullReferenceBudgets < ActiveRecord::Migration[5.0]

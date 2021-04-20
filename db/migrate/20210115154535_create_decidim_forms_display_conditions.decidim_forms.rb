@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_forms (originally 20200130194123)
 
 class CreateDecidimFormsDisplayConditions < ActiveRecord::Migration[5.1]

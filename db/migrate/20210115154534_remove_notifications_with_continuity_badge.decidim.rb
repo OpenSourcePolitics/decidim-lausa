@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20201004160335)
 
 class RemoveNotificationsWithContinuityBadge < ActiveRecord::Migration[5.2]

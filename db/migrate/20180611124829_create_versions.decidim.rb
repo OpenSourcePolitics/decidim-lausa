@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20171107103253)
 
 # This migration creates the `versions` table, the only schema PT requires.

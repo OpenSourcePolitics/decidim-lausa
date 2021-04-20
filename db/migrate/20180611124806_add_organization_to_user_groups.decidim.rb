@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20170608142521)
 
 class AddOrganizationToUserGroups < ActiveRecord::Migration[5.0]

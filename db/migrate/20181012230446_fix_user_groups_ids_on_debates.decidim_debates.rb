@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_debates (originally 20181003081235)
 
 class FixUserGroupsIdsOnDebates < ActiveRecord::Migration[5.2]

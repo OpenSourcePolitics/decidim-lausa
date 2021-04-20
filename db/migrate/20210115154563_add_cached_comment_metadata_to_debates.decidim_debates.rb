@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_debates (originally 20200902133452)
 
 class AddCachedCommentMetadataToDebates < ActiveRecord::Migration[5.2]

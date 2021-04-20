@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_sortitions (originally 20180322085145)
 
 class FixSortitionsProposalFeature < ActiveRecord::Migration[5.1]

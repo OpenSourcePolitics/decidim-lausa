@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20161130105257)
 
 class CreateDecidimScopes < ActiveRecord::Migration[5.0]

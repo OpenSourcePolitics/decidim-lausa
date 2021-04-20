@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_surveys (originally 20170525132233)
 
 class AddAnswerOptionsToSurveysQuestions < ActiveRecord::Migration[5.0]

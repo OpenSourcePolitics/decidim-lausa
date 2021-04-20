@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20180221101934)
 
 class FixNicknameIndex < ActiveRecord::Migration[5.1]

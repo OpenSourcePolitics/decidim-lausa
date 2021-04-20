@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_conferences (originally 20200320105913)
 
 class IndexForeignKeysInDecidimConferences < ActiveRecord::Migration[5.2]

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20171212103803)
 
 class CreateUniqueNicknames < ActiveRecord::Migration[5.1]

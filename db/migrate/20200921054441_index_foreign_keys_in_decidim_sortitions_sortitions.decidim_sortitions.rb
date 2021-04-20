@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_sortitions (originally 20200320105926)
 
 class IndexForeignKeysInDecidimSortitionsSortitions < ActiveRecord::Migration[5.2]

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20200806092109)
 
 class AddMachineTranslationDisplayPriorityToOrganizations < ActiveRecord::Migration[5.2]

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20170605140421)
 
 class AddDeletedFieldsToUsers < ActiveRecord::Migration[5.0]

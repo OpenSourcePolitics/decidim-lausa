@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20170612070905)
 
 class AddUniquenessToNameAndDocumentNumberToUserGroups < ActiveRecord::Migration[5.0]

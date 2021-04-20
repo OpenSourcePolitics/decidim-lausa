@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_debates (originally 20180119150434)
 
 class AddReferenceToDebates < ActiveRecord::Migration[5.1]

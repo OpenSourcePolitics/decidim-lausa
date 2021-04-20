@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_proposals (originally 20200120230130)
 
 class DropProposalEndorsements < ActiveRecord::Migration[5.2]

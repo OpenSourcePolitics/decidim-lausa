@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20181010044613)
 
 class CreateDecidimContinuityBadgeStatuses < ActiveRecord::Migration[5.2]

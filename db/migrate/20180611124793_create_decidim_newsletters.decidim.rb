@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20170213081133)
 
 class CreateDecidimNewsletters < ActiveRecord::Migration[5.0]

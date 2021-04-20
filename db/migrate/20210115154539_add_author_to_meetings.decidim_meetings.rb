@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_meetings (originally 20200526110940)
 
 class AddAuthorToMeetings < ActiveRecord::Migration[5.2]

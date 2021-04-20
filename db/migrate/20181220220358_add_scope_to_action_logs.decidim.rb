@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20181211080834)
 
 class AddScopeToActionLogs < ActiveRecord::Migration[5.2]

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_proposals (originally 20181003074440)
 
 class FixUserGroupsIdsInProposalsEndorsements < ActiveRecord::Migration[5.2]

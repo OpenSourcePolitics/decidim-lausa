@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20181115102958)
 
 class AddFollowingAndFollowersCountersToUsers < ActiveRecord::Migration[5.2]

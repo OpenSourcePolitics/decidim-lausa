@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_proposals (originally 20200120215928)
 
 # This migration must be executed after CreateDecidimEndorsements migration in decidim-core.

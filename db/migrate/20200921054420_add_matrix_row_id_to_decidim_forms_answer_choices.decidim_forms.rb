@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_forms (originally 20200304152939)
 
 class AddMatrixRowIdToDecidimFormsAnswerChoices < ActiveRecord::Migration[5.2]

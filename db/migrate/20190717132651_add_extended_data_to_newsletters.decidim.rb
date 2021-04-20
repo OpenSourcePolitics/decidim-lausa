@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20190325145349)
 
 class AddExtendedDataToNewsletters < ActiveRecord::Migration[5.2]

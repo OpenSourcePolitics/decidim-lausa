@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_conferences (originally 20180626152015)
 
 class AddConferenceUserRoles < ActiveRecord::Migration[5.2]

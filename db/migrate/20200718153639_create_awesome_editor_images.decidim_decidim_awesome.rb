@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_decidim_awesome (originally 20200324230936)
 
 class CreateAwesomeEditorImages < ActiveRecord::Migration[5.2]

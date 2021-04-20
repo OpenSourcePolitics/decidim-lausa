@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_budgets (originally 20200804175222)
 
 class VotesEnabledToVotesChoices < ActiveRecord::Migration[5.2]

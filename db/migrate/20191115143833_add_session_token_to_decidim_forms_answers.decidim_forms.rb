@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_forms (originally 20190315203056)
 
 class AddSessionTokenToDecidimFormsAnswers < ActiveRecord::Migration[5.2]

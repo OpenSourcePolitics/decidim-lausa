@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20161209134715)
 
 class MakeOrganizationDescriptionOptional < ActiveRecord::Migration[5.0]

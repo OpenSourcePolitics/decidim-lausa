@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20171107103254)
 
 # This migration adds the optional `object_changes` column, in which PaperTrail

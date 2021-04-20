@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_surveys (originally 20200610090725)
 
 class RemoveSurveyAnswers < ActiveRecord::Migration[5.2]

@@ -1,21 +1,20 @@
----
 fr:
   activemodel:
     attributes:
-      osp_authorization_handler:
-        birthday: Date de naissance
-        document_number: Numéro unique
-        postal_code: Code postal
       participatory_process:
         private_space: Espace privé
+      osp_authorization_handler:
+        document_number: Numéro unique
+        postal_code: Code postal
+        birthday: Date de naissance
   decidim:
     authorization_handlers:
       osp_authorization_handler:
         explanation: Vérifier votre identité en saisissant un numéro unique
         fields:
-          birthday: Date de naissance
           document_number: Numéro unique
           postal_code: Code postal
+          birthday: Date de naissance
         name: Formulaire de vérification d'identité
       osp_authorization_workflow:
         name: Procédure d'autorisation

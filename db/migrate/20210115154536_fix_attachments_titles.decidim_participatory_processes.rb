@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_participatory_processes (originally 20201006072346)
 
 class FixAttachmentsTitles < ActiveRecord::Migration[5.2]

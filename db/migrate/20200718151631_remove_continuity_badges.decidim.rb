@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20191212102051)
 
 class RemoveContinuityBadges < ActiveRecord::Migration[5.2]

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_sortitions (originally 20200827154036)
 
 class AddCommentableCounterCacheToSortitions < ActiveRecord::Migration[5.2]

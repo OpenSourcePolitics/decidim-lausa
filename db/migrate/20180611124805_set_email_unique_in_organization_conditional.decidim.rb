@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20170606102659)
 
 class SetEmailUniqueInOrganizationConditional < ActiveRecord::Migration[5.0]

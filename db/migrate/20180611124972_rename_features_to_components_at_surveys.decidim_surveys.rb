@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_surveys (originally 20180305133837)
 
 class RenameFeaturesToComponentsAtSurveys < ActiveRecord::Migration[5.1]

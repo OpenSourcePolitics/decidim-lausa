@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20180508111710)
 
 class AddAcceptedTosVersionFieldToUsers < ActiveRecord::Migration[5.1]

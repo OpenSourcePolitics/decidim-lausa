@@ -1,8 +1,6 @@
+tmp
+public/uploads
+.circleci
 .bundle
 .ruby-version
 .git
-test
-spec
-tmp/*
-.rspec-failures
-public/uploads

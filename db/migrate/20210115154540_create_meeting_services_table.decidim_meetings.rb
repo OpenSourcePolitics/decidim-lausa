@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_meetings (originally 20200702123209)
 
 class CreateMeetingServicesTable < ActiveRecord::Migration[5.2]

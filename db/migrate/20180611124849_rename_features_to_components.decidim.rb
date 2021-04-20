@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20180305132906)
 
 class RenameFeaturesToComponents < ActiveRecord::Migration[5.1]
@@ -28,7 +27,6 @@ class RenameFeaturesToComponents < ActiveRecord::Migration[5.1]
     ActionLog.find_each do |log|
       new_extra = log.extra.dup
       next if new_extra["component"].present?
-
       new_extra["component"] = new_extra["feature"]
       new_extra.delete("feature")
       log.extra = new_extra

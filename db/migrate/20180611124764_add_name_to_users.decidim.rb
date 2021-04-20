@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20161010085443)
 
 class AddNameToUsers < ActiveRecord::Migration[5.0]

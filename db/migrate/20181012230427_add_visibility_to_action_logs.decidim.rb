@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20180918072506)
 
 class AddVisibilityToActionLogs < ActiveRecord::Migration[5.2]

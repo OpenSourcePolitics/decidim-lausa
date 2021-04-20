@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_debates (originally 20181016132850)
 
 class AddOrganizationAsAuthorToDebates < ActiveRecord::Migration[5.2]

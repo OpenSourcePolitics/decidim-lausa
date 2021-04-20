@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20180206183235)
 
 class CreateParticipatorySpacePrivateUsers < ActiveRecord::Migration[5.1]

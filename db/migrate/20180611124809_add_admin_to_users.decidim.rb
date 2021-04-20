@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20170713131206)
 
 class AddAdminToUsers < ActiveRecord::Migration[5.1]

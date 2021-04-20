@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_budgets (originally 20170130095615)
 
 class CreateOrders < ActiveRecord::Migration[5.0]

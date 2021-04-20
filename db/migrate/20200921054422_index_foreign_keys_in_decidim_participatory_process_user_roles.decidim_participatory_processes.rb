@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_participatory_processes (originally 20200320105924)
 
 class IndexForeignKeysInDecidimParticipatoryProcessUserRoles < ActiveRecord::Migration[5.2]

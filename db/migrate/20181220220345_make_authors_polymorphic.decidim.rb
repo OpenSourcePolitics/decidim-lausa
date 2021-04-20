@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20181016091601)
 
 class MakeAuthorsPolymorphic < ActiveRecord::Migration[5.2]

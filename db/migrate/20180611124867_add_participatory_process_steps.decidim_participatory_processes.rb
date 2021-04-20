@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_participatory_processes (originally 20161017085822)
 
 class AddParticipatoryProcessSteps < ActiveRecord::Migration[5.0]

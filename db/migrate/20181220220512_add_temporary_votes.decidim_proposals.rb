@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_proposals (originally 20181010114622)
 
 class AddTemporaryVotes < ActiveRecord::Migration[5.2]

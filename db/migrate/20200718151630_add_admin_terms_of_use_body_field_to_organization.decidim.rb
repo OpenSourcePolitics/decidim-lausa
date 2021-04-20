@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20191118123154)
 
 class AddAdminTermsOfUseBodyFieldToOrganization < ActiveRecord::Migration[5.2]

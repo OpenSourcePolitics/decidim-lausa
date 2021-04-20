@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_meetings (originally 20200702123210)
 
 class MoveMeetingServicesToOwnModel < ActiveRecord::Migration[5.2]

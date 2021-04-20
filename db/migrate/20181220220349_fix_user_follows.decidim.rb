@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20181029112820)
 
 class FixUserFollows < ActiveRecord::Migration[5.2]

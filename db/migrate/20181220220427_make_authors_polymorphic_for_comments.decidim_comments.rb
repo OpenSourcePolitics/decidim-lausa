@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_comments (originally 20181016142511)
 
 class MakeAuthorsPolymorphicForComments < ActiveRecord::Migration[5.2]

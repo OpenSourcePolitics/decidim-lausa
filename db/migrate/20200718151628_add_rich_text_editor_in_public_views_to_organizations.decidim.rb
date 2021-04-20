@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20191113144432)
 
 class AddRichTextEditorInPublicViewsToOrganizations < ActiveRecord::Migration[5.2]

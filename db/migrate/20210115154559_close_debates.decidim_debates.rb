@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_debates (originally 20200703134657)
 
 class CloseDebates < ActiveRecord::Migration[5.2]

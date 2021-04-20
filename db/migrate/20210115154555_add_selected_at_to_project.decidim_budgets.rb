@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_budgets (originally 20200728075039)
 
 class AddSelectedAtToProject < ActiveRecord::Migration[5.2]

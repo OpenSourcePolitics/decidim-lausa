@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_proposals (originally 20170112115253)
 
 class CreateProposalVotes < ActiveRecord::Migration[5.0]

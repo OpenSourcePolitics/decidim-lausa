@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_verifications (originally 20171030133426)
 
 #

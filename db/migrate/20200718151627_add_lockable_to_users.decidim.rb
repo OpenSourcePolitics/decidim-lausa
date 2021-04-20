@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20191028135718)
 
 class AddLockableToUsers < ActiveRecord::Migration[5.2]

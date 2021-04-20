@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20181023104416)
 
 class AddStaticPageTopics < ActiveRecord::Migration[5.2]

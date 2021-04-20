@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20200730142511)
 
 class AddFileUploadSettingsToDecidimOrganizations < ActiveRecord::Migration[5.2]

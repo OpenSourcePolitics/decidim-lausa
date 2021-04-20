@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_blogs (originally 20200827153709)
 
 class AddCommentableCounterCacheToPosts < ActiveRecord::Migration[5.2]

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim (originally 20190412105836)
 
 class AddMissingIndexes < ActiveRecord::Migration[5.2]

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # This migration comes from decidim_proposals (originally 20180305133811)
 
 class RenameFeaturesToComponentsAtProposals < ActiveRecord::Migration[5.1]
