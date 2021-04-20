@@ -24,5 +24,10 @@ RSpec.configure do |config|
     SocialShareButton.configure do |social_share_button|
       social_share_button.allow_sites = %w(twitter facebook whatsapp_app whatsapp_web telegram)
     end
+
+    ActiveRecord::Base.logger.level = Logger::ERROR
+    ActionController::Base.logger.level = Logger::ERROR
+    Rails.logger.level = Logger::ERROR
   end
+
 end
