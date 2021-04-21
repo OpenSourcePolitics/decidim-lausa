@@ -26,7 +26,7 @@ describe Decidim::AttachmentCreatedEvent do
     end
 
     context "when title has diacritics" do
-      let(:title) { {en: "I'm a subject with diacritics !"} }
+      let(:title) { { en: "I'm a subject with diacritics !" } }
 
       it "is generated correctly" do
         expect(subject.email_subject).to be_kind_of(String)

@@ -38,7 +38,7 @@ describe Decidim::Debates::CreateDebateEvent do
 
       context "when title has diacritics" do
         let(:debate_title) { translated(resource.title) }
-        let(:title) { {en: "<script>alert(\"TITLE\");</script> I'm a subject with diacritics !"} }
+        let(:title) { { en: "<script>alert(\"TITLE\");</script> I'm a subject with diacritics !" } }
 
         it "is generated correctly" do
           expect(subject.email_subject).to be_kind_of(String)
@@ -51,24 +51,24 @@ describe Decidim::Debates::CreateDebateEvent do
     describe "email_intro" do
       it "is generated correctly" do
         expect(subject.email_intro)
-            .to eq("Hi,\n#{author.name} @#{author.nickname}, who you are following, has created a new debate \"#{debate_title}\". Check it out and contribute:")
+          .to eq("Hi,\n#{author.name} @#{author.nickname}, who you are following, has created a new debate \"#{debate_title}\". Check it out and contribute:")
       end
     end
 
     describe "email_outro" do
       it "is generated correctly" do
         expect(subject.email_outro)
-            .to eq("You have received this notification because you are following @#{author.nickname}. You can stop receiving notifications following the previous link.")
+          .to eq("You have received this notification because you are following @#{author.nickname}. You can stop receiving notifications following the previous link.")
       end
     end
 
     describe "notification_title" do
       it "is generated correctly" do
         expect(subject.notification_title)
-            .to include("<a href=\"/profiles/#{author.nickname}\">#{author.name} @#{author.nickname}</a>")
+          .to include("<a href=\"/profiles/#{author.nickname}\">#{author.name} @#{author.nickname}</a>")
 
         expect(subject.notification_title)
-            .to include("created the <a href=\"#{resource_path}\">#{debate_title}</a> debate.")
+          .to include("created the <a href=\"#{resource_path}\">#{debate_title}</a> debate.")
       end
     end
   end
@@ -90,14 +90,14 @@ describe Decidim::Debates::CreateDebateEvent do
     describe "email_intro" do
       it "is generated correctly" do
         expect(subject.email_intro)
-            .to eq("Hi,\nA new debate \"#{debate_title}\" has been created on the #{translated(space.title)} participatory space, check it out and contribute:")
+          .to eq("Hi,\nA new debate \"#{debate_title}\" has been created on the #{translated(space.title)} participatory space, check it out and contribute:")
       end
     end
 
     describe "email_outro" do
       it "is generated correctly" do
         expect(subject.email_outro)
-            .to eq("You have received this notification because you are following the #{translated(space.title)} participatory space. " \
+          .to eq("You have received this notification because you are following the #{translated(space.title)} participatory space. " \
           "You can stop receiving notifications following the previous link.")
       end
     end
@@ -105,10 +105,10 @@ describe Decidim::Debates::CreateDebateEvent do
     describe "notification_title" do
       it "is generated correctly" do
         expect(subject.notification_title)
-            .to include("The <a href=\"#{resource_path}\">#{debate_title}</a> debate was created on ")
+          .to include("The <a href=\"#{resource_path}\">#{debate_title}</a> debate was created on ")
 
         expect(subject.notification_title)
-            .to include("<a href=\"#{space_path}\">#{translated(space.title)}</a>.")
+          .to include("<a href=\"#{space_path}\">#{translated(space.title)}</a>.")
       end
     end
   end
