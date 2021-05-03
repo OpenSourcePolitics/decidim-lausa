@@ -13,11 +13,11 @@ describe "Admin edits proposals", type: :system do
 
   before do
     component.update!(
-        step_settings: {
-            component.participatory_space.active_step.id => {
-                creation_enabled: creation_enabled?
-            }
+      step_settings: {
+        component.participatory_space.active_step.id => {
+          creation_enabled: creation_enabled?
         }
+      }
     )
   end
 
