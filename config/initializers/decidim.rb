@@ -97,7 +97,7 @@ Decidim.configure do |config|
   # end
 
   # Currency unit
-  # config.currency_unit = "€"
+  config.currency_unit = "CHF"
 
   # Defines the quality of image uploads after processing. Image uploads are
   # processed by Decidim, this value helps reduce the size of the files.
