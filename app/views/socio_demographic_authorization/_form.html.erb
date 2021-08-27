@@ -1,0 +1,9 @@
+<%= hidden_field :authorization_handler, :handler_name, value: "socio_demographic_authorization_handler" %>
+<div class="card-section">
+  <div class="field">
+    <%= form.text_field :firstname, label: t(".firstname") %>
+  </div>
+  <div class="field">
+    <%= form.date_field :birthdate, label: t(".birthdate") %>
+  </div>
+</div>

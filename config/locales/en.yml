@@ -4,3 +4,7 @@ en:
     decidim:
       footer:
         download_open_data: Open data
+  socio_demographic_authorization:
+    form:
+      birthdate: Birthdate
+      firstname: Firstname

@@ -29,3 +29,7 @@ fr:
     decidim:
       footer:
         download_open_data: Données ouvertes
+  socio_demographic_authorization:
+    form:
+      birthdate: Date de naissance
+      firstname: Prénom

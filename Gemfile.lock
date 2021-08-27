@@ -7,6 +7,14 @@ GIT
       decidim-core (= 0.23.1)
 
 GIT
+  remote: https://github.com/OpenSourcePolitics/decidim-module-socio_demographic_authorization_handler.git
+  revision: 9b2bc138f5ad72231d7a3e95cb28f2ad9803beaa
+  branch: alt/decidim-lausa
+  specs:
+    decidim-socio_demographic_authorization_handler (0.23.1)
+      decidim-core (= 0.23.1)
+
+GIT
   remote: https://github.com/OpenSourcePolitics/decidim-module-term_customizer.git
   revision: b083f1f2e398aa51606ea9adc928394b99b44be1
   branch: 0.dev
@@ -17,9 +25,9 @@ GIT
 
 GIT
   remote: https://github.com/Platoniq/decidim-module-decidim_awesome
-  revision: dec29921ef89d3179a5ad0309c944fee751c9ec3
+  revision: 19d8be638bb800a551174a01769017acf0043f14
   specs:
-    decidim-decidim_awesome (0.7.0)
+    decidim-decidim_awesome (0.7.1)
       decidim-admin (>= 0.23.0, < 0.25)
       decidim-core (>= 0.23.0, < 0.25)
       redcarpet (~> 3.4)
@@ -872,6 +880,7 @@ DEPENDENCIES
   decidim-decidim_awesome!
   decidim-dev!
   decidim-navbar_links!
+  decidim-socio_demographic_authorization_handler!
   decidim-term_customizer!
   dotenv-rails
   faker (~> 1.8)
@@ -897,4 +906,4 @@ RUBY VERSION
    ruby 2.7.1p83
 
 BUNDLED WITH
-   2.2.15
+   2.2.24
