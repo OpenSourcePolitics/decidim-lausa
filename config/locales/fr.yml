@@ -33,3 +33,5 @@ fr:
     form:
       birthdate: Date de naissance
       firstname: Prénom
+      lastname: Nom
+      help_text: Texte RGPD avec <a href="http://localhost:3000/pages/terms-and-conditions"> lien</a>.

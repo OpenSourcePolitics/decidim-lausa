@@ -8,3 +8,5 @@ en:
     form:
       birthdate: Birthdate
       firstname: Firstname
+      lastname: Lastname
+      help_text: GDPR text

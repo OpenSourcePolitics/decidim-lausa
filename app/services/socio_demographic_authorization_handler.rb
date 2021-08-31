@@ -2,12 +2,13 @@
 
 # Allows to create a form for simple Socio Demographic authorization
 class SocioDemographicAuthorizationHandler < Decidim::AuthorizationHandler
+  attribute :lastname, String
   attribute :firstname, String
   attribute :birthdate, String
 
-  validates :firstname, :birthdate, presence: true
+  validates :lastname, :firstname, :birthdate, presence: true
 
   def metadata
-    super.merge(firstname: firstname, birthdate: birthdate)
+    super.merge(lastname: lastname, firstname: firstname, birthdate: birthdate)
   end
 end

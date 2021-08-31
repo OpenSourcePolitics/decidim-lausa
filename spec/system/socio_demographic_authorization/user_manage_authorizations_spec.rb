@@ -38,13 +38,15 @@ describe "User authorizations", type: :system do
       expect(page).to have_content "Additional informations"
 
       within ".new_authorization_handler" do
+        expect(page).to have_field("Lastname")
         expect(page).to have_content("Firstname")
         expect(page).to have_field("Birthdate")
       end
     end
 
     it "allows user to fill form" do
-      fill_in :authorization_handler_firstname, with: "User"
+      fill_in :authorization_handler_lastname, with: "Lastname"
+      fill_in :authorization_handler_firstname, with: "Firstname"
       fill_in :authorization_handler_birthdate, with: "12/12/2021"
       click_button "Send"
 
