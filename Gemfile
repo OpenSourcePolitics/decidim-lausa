@@ -12,8 +12,8 @@ gem "decidim-conferences", git: "https://github.com/decidim/decidim.git", branch
 
 gem "decidim-decidim_awesome", git: "https://github.com/Platoniq/decidim-module-decidim_awesome"
 gem "decidim-navbar_links", git: "https://github.com/OpenSourcePolitics/decidim-module-navbar_links.git", branch: "0.23-stable"
+gem "decidim-socio_demographic_authorization_handler", git: "https://github.com/OpenSourcePolitics/decidim-module-socio_demographic_authorization_handler.git", branch: "alt/decidim-lausa"
 gem "decidim-term_customizer", git: "https://github.com/OpenSourcePolitics/decidim-module-term_customizer.git", branch: "0.dev"
-gem 'decidim-socio_demographic_authorization_handler', git: "https://github.com/OpenSourcePolitics/decidim-module-socio_demographic_authorization_handler.git", branch: "alt/decidim-lausa"
 
 # gem "decidim-consultations", git: "https://github.com/decidim/decidim.git", branch: "0.21-stable"
 # gem "decidim-initiatives", git: "https://github.com/decidim/decidim.git", branch: "0.21-stable"
